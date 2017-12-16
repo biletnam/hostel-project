@@ -1,0 +1,109 @@
+
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro');
+* {
+        margin: 0;
+        padding: 0;
+    }
+body{
+    font-family: 'Maven Pro', sans-serif;
+}
+
+div#header{width:100%; height: 150px ;background: linear-gradient(#04869d,#2d4361);}
+
+.head1{padding-top:5%; text-align:center;font-size: 24; color: azure;  -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */ animation: mymove 5s infinite;}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {text-shadow: 10px 20px 45px #7ed4af;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {text-shadow: 10px 20px 45px #7ed4af;}
+}
+
+.img1{ height: 70px;width: 80px;}
+
+/***************************************Navigation*******************************************************/
+div.content{width: 100%; height: 100%;}
+
+div.nav{width: 100%;}
+
+
+
+ul.nav{
+list-style-type:none;
+margin:0 auto;
+padding:0;
+overflow:hidden;
+width: 100%;
+background-color:#2d4361;
+}
+li.nav
+{
+float:left;
+display: inline;
+}
+
+li a
+{
+display:block;
+font-weight:bold;
+color:white;
+text-align:center;
+padding:3%;
+width:150px; 
+text-decoration:none;
+text-transform:uppercase;
+}
+a.nav:hover,a.nav:active
+{
+background-color:black;
+}
+
+/******************************************************form****************************************************/
+
+#form{margin-left: 30%; margin-right: 30% ; background-color: #2d4361;}
+input[type=text] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=submit]:hover {
+    background-color:#04869d;
+    
+}
+input[type=submit] {
+    background-color: #2d4369; 
+    border: 1px solid #ccc;
+    width: 20%; height: 30px;
+    border-radius: 4px; box-sizing:content-box;
+    
+}
+
+#footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #2d4369 ;
+  text-align: center;
+}
+
+#table{background-color:gray;}

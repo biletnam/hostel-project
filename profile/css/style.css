@@ -1,0 +1,18 @@
+/**************************************Header****************************************/
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        vertical-align: baseline;
+        background: transparent;
+        font-family: Sans-serif, serif;
+    }
+.row{background-color: #2f2e49; height: 230px; width: 100%; }
+.logout{text-align: right; margin-right: 0; margin-top: 4px;}
+#info{margin-top: 10px;}
+img{margin: 0 auto;margin-top: 0px;}
+.user{margin: 0 auto;margin-top: 125px; color:black;}
+
+.table2{border:1.4px solid black;}
+table{ width:50%}

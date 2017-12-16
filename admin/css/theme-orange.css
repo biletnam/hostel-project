@@ -1,0 +1,7 @@
+.border-mute-dark {
+	border-color: #9a9a9a;
+}
+.background-color-1 {
+	background-color: #f28d4f !important; /* !important needed to override the default WSX5 CSS code */
+}
+

@@ -1,0 +1,153 @@
+/*
+| -----------------------
+| GENERICS
+| ------------------------
+*/
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans';
+	font-weight: normal;
+	font-size: 11pt;
+	height: 100%;
+	min-height: 100%;
+}
+
+
+input[type=text], input[type=password] {
+	height: 23px;
+	border-radius: 0;
+}
+
+input:focus {
+	outline: none;
+}
+
+
+.button {
+   display: inline-block;
+   line-height: 20px;
+   min-width: 50px;
+   text-align: center;
+   padding: 0 15px;
+   border-style: none;
+
+}
+
+.text-light {
+	font-weight: 200;
+}
+
+
+.text-extralarge {
+	font-size: 18pt;
+}
+
+.border {
+	border-width: 1px;
+	border-style: solid;
+}
+
+
+
+.border-bottom {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+}
+
+
+
+
+  .header {
+	text-align: center;
+}
+
+  .logo {
+	margin: 0 auto;
+	display: block;
+	margin-top: 20px;
+	max-width: 192px;
+}
+
+
+
+
+
+.background-blue-light {
+	background-color: #eaeff2;
+}
+
+
+	  .header {
+		display: table-row;
+	}
+
+	  .header .logo {
+		display: none;
+	}
+
+	 .header .text {
+		padding: 15px;
+		vertical-align: top;
+		text-align: left;
+	}
+
+	
+@media screen and (min-width: 1000px) {
+	.no-desktop {
+		display: none;
+	}
+}
+
+@media screen and (min-width: 750px) and (max-width: 1000px) {
+	.no-tablet {
+		display: none;
+	}
+}
+
+/* Phone */
+@media screen and (max-width: 750px) {
+
+	.icon-large {
+		font-size: 19pt;
+	}
+
+	.no-phone {
+		display: none;
+	}
+
+	.div-phone {
+		display: block;
+	}
+
+	.center-phone {
+		margin: 0 auto;
+		float: none;
+	}
+
+	.clearfix-phone {
+		clear: both;
+	}
+
+	.margin-bottom-phone {
+		margin-bottom: 10px;
+	}
+}
+
+/* Small Phone */
+@media screen and (max-width: 370px) {
+
+	.icon-phone  {
+		font-size: 16px;
+	}
+
+	.no-small-phone {
+		display: none;
+	}
+
+	.border-left,
+	.border-left-2 {
+		border-left-width: 0;
+	}
+}
